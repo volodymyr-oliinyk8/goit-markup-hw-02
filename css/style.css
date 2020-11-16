@@ -1,0 +1,156 @@
+:root {
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --primary-accent-color: #2196f3;
+}
+body {
+  color: var(--primary-title-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* розметка хедер */
+.logo-link {
+  color: var(--primary-accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-header {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+}
+.nav-link {
+  color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primary-accent-color);
+}
+.nav-contacts {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: var(--primary-accent-color);
+}
+/* розметка мейн */
+.hero {
+  color: var(--primary-white-color);
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-link {
+  color: var(--primary-white-color);
+  background: var(--primary-accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+/* цвет текста индекс+портфолио */
+.features-text,
+.team-position,
+.name-work {
+  color: var(--primary-text-color);
+}
+/* розметка текста особенности */
+.features-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* розметка заголовка h2 */
+.examples-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/* розметка команди */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* розметка футер */
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+address {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* цвет ссылок телефон+почта */
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* потрфолио */
+.button-filter {
+  color: var(--primary-title-color);
+  background: #f5f4fa;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--primary-accent-color);
+  color: var(--primary-white-color);
+}
+/* розметка заголовка h2 */
+.name-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.name-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
